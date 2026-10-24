@@ -1,9 +1,8 @@
 -- language: Lua, target: Roblox Delta Executor
--- Smith DBZ Hub (GitHub Version)
+-- Smith DBZ Hub (GitHub Version - Corrigida)
 
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
-local VirtualUser = game:GetService("VirtualUser")
 local Lighting = game:GetService("Lighting")
 local Workspace = game:GetService("Workspace")
 local LocalPlayer = Players.LocalPlayer
@@ -419,5 +418,3 @@ fpsBtn.MouseButton1Click:Connect(function()
     fpsBtn.Text = "FPS Otimizado!"
     fpsBtn.BackgroundColor3 = Color3.fromRGB(0, 200, 100)
 end)
-
-print("[Smith] Hub carregado do GitHub.")
